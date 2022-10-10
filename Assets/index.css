@@ -1,3 +1,9 @@
+html {
+    max-height: 100%;
+    background-color: black;
+    overflow-x: hidden;
+}
+
 h1 {
     color: white;
 }
@@ -18,7 +24,7 @@ nav > a {
 }
 
 nav > a:hover {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 nav > a > span {
@@ -38,7 +44,7 @@ nav > a > img {
     position: absolute;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.5);
-    transition: transform 200ms, opacity 200ms;
+    transition: transform 200ms, opacity 250ms;
     pointer-events: none;
     width: min(50vw, 800px);
 }
@@ -49,8 +55,17 @@ nav > a:hover > img {
 
 }
 
+.me {
+    margin-top: 15px;
+}
+
 .plus {
     color: white;
+}
+
+.divition {
+    color: white;
+    margin-top: 15px;
 }
 
 footer > a {
@@ -63,5 +78,6 @@ footer > a:hover {
 }
 
 footer {
+    margin-top: 30px;
     color: rgb(255, 255, 255, 0.55);
 }
