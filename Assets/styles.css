@@ -1,0 +1,90 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: black;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, footer {
+    margin-top: 30px;
+    justify-content: center;
+    align-items:  center;
+    display: flex;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 30px;
+    justify-content: space-around;
+    display: flex;
+    padding: clamp(1rem, 5vw, 6rem);
+}
+
+header > ul > li > a > span {
+    display: block;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    position: relative;
+    z-index: 2;
+}
+
+header > ul > li > a > span:hover {
+    border-top-color: white;
+    border-bottom-color: white;
+}
+
+header > ul > li > a {
+    color: rgb(255, 255, 255, 0.25);
+    font-size: clamp(3rem);
+    font-weight: 300;
+}
+
+header > ul > li > a:hover {
+    color: white;
+}
+
+article {
+    justify-content: center;
+    display: flex;
+}
+
+footer, a {
+    padding-left: 3px;
+    color: rgb(255, 255, 255, 0.25);
+}
+
+footer > a:hover {
+    color: rgba(205, 9, 9, 0.55);
+}
+
+.fa-heart {
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #CC0100;
+}

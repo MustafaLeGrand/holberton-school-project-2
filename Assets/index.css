@@ -1,0 +1,67 @@
+h1 {
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40vh;
+    padding: clamp(1rem, 5vw, 6rem);
+}
+
+nav > a {
+    color: rgb(255, 255, 255, 0.25);
+    font-size: clamp(3rem);
+    font-weight: 300;
+    text-decoration: none;
+    position: relative;
+}
+
+nav > a:hover {
+    color: white;
+}
+
+nav > a > span {
+    display: block;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    position: relative;
+    z-index: 2;
+}
+
+nav > a > span:hover {
+    border-top-color: rgb(255, 0, 0);
+    border-bottom-color: rgb(255, 0, 0);
+}
+
+nav > a > img {
+    position: absolute;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+    transition: transform 200ms, opacity 200ms;
+    pointer-events: none;
+    width: min(50vw, 800px);
+}
+
+nav > a:hover > img {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+
+}
+
+.plus {
+    color: white;
+}
+
+footer > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.55);
+}
+
+footer > a:hover {
+    color: rgba(205, 9, 9, 0.55);
+}
+
+footer {
+    color: rgb(255, 255, 255, 0.55);
+}
