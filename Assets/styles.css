@@ -20,7 +20,7 @@ ul {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 40px;
+    gap: 35px;
 }
 
 a {
@@ -116,7 +116,7 @@ header > ul > li > a:hover {
 }
 
 .share:hover > span {
-    transform: translateX(-100%);
+    transform: translateY(-100%);
     transition-delay: .3s;
 }
 
@@ -125,7 +125,7 @@ header > ul > li > a:hover {
     font-size: 20px;
     color: #ffffff;
     text-align: center;
-    transform: translateX(-100%);
+    transform: translateY(-100%);
     opacity: 0;
     transition: .3s linear;
 }
