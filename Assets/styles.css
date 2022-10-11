@@ -72,6 +72,22 @@ header > ul > li > a:hover {
    transition: 1s linear;
 }
 
+.share {
+    cursor: pointer;
+    margin-bottom: 200;
+    color: rgb(255, 255, 255, 0.25);
+    width: 115px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    transition: 1s linear;
+ }
+
 .share:hover {
     transform: scale(1.1);
 }
