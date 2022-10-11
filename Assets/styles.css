@@ -1,16 +1,12 @@
-html {
-    max-height: 100%;
-    background-color: black;
-    overflow-x: hidden;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
-    flex: 1;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     font-family: 'Kanit', sans-serif;
 }
@@ -19,41 +15,22 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    gap: 35px;
 }
 
 a {
     text-decoration: none;
 }
 
-h1, footer {
-    margin-top: 50px;
-    justify-content: center;
-    align-items:  center;
-    display: flex;
+.title {
+    margin-top: 60px;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header {
-    width: 100%;
-    /* padding: 30px; */
-    justify-content: space-around;
-    display: flex;
-    
-}
-
-header > ul {
-    margin-left: 249px;
+.class > h1 {
+    margin: 0;
+    padding: 0;
 }
 
 header > ul > li > a > span {
-    display: block;
     border-bottom: 1px solid transparent;
     border-top: 1px solid transparent;
     position: relative;
@@ -77,10 +54,13 @@ header > ul > li > a:hover {
     color: white;
 }
 
+.nav-bar {
+    margin-bottom: 55px;
+}
+
 .share {
    cursor: pointer;
-   margin-top: 15px;
-   margin-right: 100px;
+   margin-bottom: 200;
    color: rgb(255, 255, 255, 0.25);
    width: 115px;
    height: 40px;
@@ -151,24 +131,38 @@ header > ul > li > a:hover {
     transition-delay: .4s;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+}
 
 article {
     justify-content: center;
     display: flex;
+    flex: 2;
 }
 
-footer, a {
+aside {
+    display: flex;
+    flex: 1;
+}
+
+article, aside {
+    overflow-y: auto;
+}
+
+footer, p > a {
     padding-left: 3px;
     color: rgb(255, 255, 255, 0.25);
 }
 
-footer > a:hover {
+footer > p > a:hover {
     transition: .3s linear;
-    color: rgba(205, 9, 9, 0.55);
+    color: rgb(205, 9, 9);
 }
 
 .fa-heart {
     padding-left: 3px;
     padding-right: 3px;
     color: #CC0100;
-}
+} 
