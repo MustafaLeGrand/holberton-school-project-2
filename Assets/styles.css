@@ -185,7 +185,7 @@ aside {
     display: flex;
     flex: 1;
     background-color: rgba(255, 255, 255, 0.179);
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 article {
@@ -193,12 +193,8 @@ article {
 }
 
 aside {
-    overflow-y: hidden;
-}
-
-aside {
-    margin: 0;
-    padding: 0;
+    overflow-y: scroll;
+    height: 90vh;
 }
 
 /* aside {
@@ -208,6 +204,20 @@ aside {
     flex-direction: row;
     width: 100%;
 } */
+
+#disqus_thread {
+    width: 350px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 footer, p > a {
     padding-left: 3px;

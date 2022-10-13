@@ -18,6 +18,6 @@ window.onmousemove = e => {
         transform: `translateY(${y}px)`
     }, {
         fill: "forwards",
-        duration: 4000
+        duration: 3000
     })
 }
