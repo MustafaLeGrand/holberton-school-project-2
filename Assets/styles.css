@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -154,16 +158,56 @@ article {
     justify-content: center;
     display: flex;
     flex: 2;
+    flex-direction: column;
+}
+
+main > article > div > img {
+    border-radius: 20px;
+}
+
+main > article > div > div > img {
+    border-radius: 20px;
+}
+
+.text > p {
+    text-align: justify;
+}
+
+p {
+    margin-top: 10px;
+}
+
+div > img {
+    margin-top: 15px;
 }
 
 aside {
     display: flex;
     flex: 1;
+    background-color: rgba(255, 255, 255, 0.179);
+    border-radius: 30px;
 }
 
-article, aside {
-    overflow-y: auto;
+article {
+    overflow-y: scroll;
 }
+
+aside {
+    overflow-y: hidden;
+}
+
+aside {
+    margin: 0;
+    padding: 0;
+}
+
+/* aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+} */
 
 footer, p > a {
     padding-left: 3px;
