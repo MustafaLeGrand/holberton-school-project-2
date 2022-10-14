@@ -13,6 +13,7 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
     font-family: 'Kanit', sans-serif;
+    height: auto;
 }
 
 ul {
@@ -24,7 +25,8 @@ a {
 }
 
 .title {
-    margin-top: 60px;
+    display: block;
+    margin-bottom: 45px;
 }
 
 .class > h1 {
@@ -57,7 +59,12 @@ header > ul > li > a:hover {
 }
 
 .nav-bar {
-    margin-bottom: 55px;
+    position: sticky;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    top: 0;
+    height: 20vh;
+    background-color: #000000;
 }
 
 .share {
@@ -189,7 +196,7 @@ aside {
     background-color: rgba(255, 255, 255, 0.179);
     border-radius: 20px;
     overflow-y: scroll;
-    height: 70vh;
+    height: 90vh;
     border: double 8px;
     justify-content: center;
     align-items: center;
@@ -201,15 +208,30 @@ article {
 
 #disqus_thread {
     width: 100%;
+    height: 100%;
 }
 
+.sans-serif .thread__wrapper{
+    color: #ffffff;
+}
+
+#disqus_thread iframe body {
+    color: wheat;
+} 
 
 .comments {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.textarea {
+    background: #CC0100;
+}
+
+
 
 footer, p > a {
     padding-left: 3px;
