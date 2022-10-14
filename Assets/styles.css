@@ -61,7 +61,7 @@ header > ul > li > a:hover {
 .nav-bar {
     position: sticky;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom:0;
     top: 0;
     height: 20vh;
     background-color: #000000;
@@ -195,7 +195,7 @@ div > img {
 
 aside {
     margin-left: 6vh;
-    margin-top: 6.5vh;
+    margin-top: 7.8vh;
     display: flex;
     flex: 1;
     background-color: #242424cc;
