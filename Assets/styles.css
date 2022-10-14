@@ -180,24 +180,28 @@ main > article > div > div > img {
     text-align: justify;
 }
 
+.text {
+    margin-bottom: 5vh;
+}
+
 p {
     margin-top: 10px;
 }
 
 div > img {
     margin-top: 15px;
+    /* border: 4px solid #ffffff; */
 }
 
 aside {
-    margin-left: 4vh;
+    margin-left: 6vh;
     margin-top: 6.5vh;
     display: flex;
     flex: 1;
-    background-color: rgba(255, 255, 255, 0.179);
+    background-color: #242424cc;
     border-radius: 20px;
     overflow-y: scroll;
     height: 90vh;
-    border: double 8px;
     justify-content: center;
     align-items: center;
 }
@@ -215,10 +219,6 @@ article {
     color: #ffffff;
 }
 
-#disqus_thread iframe body {
-    color: wheat;
-} 
-
 .comments {
     padding-top: 20px;
     display: flex;
@@ -227,11 +227,9 @@ article {
     align-items: center;
 }
 
-.textarea {
-    background: #CC0100;
+body.sans-serif {
+    color: wheat;
 }
-
-
 
 footer, p > a {
     padding-left: 3px;
