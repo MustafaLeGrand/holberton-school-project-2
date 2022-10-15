@@ -30,6 +30,38 @@ a {
     margin-bottom: 45px;
 }
 
+.arch {
+    font-family: 'Monoton', cursive;
+}
+
+.sculpture {
+    font-family: 'Blaka Ink', cursive;
+}
+
+.painting {
+    font-family: 'Splash', cursive;
+}
+
+.literature {
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+
+.music {
+    font-family: 'Warnes', cursive;
+}
+
+.performing {
+    font-family: 'Rubik Glitch', cursive;
+}
+
+.film {
+    font-family: 'Rubik Burned', cursive;
+}
+
+.coding {
+    font-family: 'Rubik Maze', cursive;
+}
+
 .class > h1 {
     margin: 0;
     padding: 0;
@@ -247,3 +279,18 @@ footer > p > a:hover {
     padding-right: 3px;
     color: #CC0100;
 } 
+
+
+/* .magic {
+    color: red;
+} */
+
+h1 > .magic {
+    background: linear-gradient(
+        to right,
+        var(--purple),
+        var(--violet),
+        var(--pink),
+        var(--purple)
+    );
+}
