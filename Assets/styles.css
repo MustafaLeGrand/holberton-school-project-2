@@ -287,6 +287,12 @@ footer > p > a:hover {
     font-family: 'Raleway Dots', cursive;
 }
 
+/* .thumbnails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 /* gradient  */
 
 :root {  
