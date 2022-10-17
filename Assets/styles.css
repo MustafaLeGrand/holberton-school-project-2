@@ -279,7 +279,7 @@ footer > p > a:hover {
     color: #CC0100;
 } 
 
-.me {
+.me, .thanks, .my-journey, .go-get-it {
     font-family: 'Nabla', cursive;
 }
 
@@ -287,17 +287,13 @@ footer > p > a:hover {
     font-family: 'Raleway Dots', cursive;
 }
 
-.thanks {
-    font-family: 'Nabla', cursive;
-}
-
 /* gradient  */
 
 :root {  
-    --purple: rgb(240, 17, 61);
+    --purple: rgb(32, 104, 237);
     --violet: rgb(238, 92, 7);
-    --pink: rgb(15, 226, 237);
-    --red: rgb(229, 37, 197);
+    --pink: rgb(15, 233, 237);
+    --red: rgb(229, 136, 37);
 }
   
 @keyframes background-pan {
