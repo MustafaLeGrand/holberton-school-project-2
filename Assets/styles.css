@@ -14,7 +14,6 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
     height: auto;
-    
 }
 
 ul {
@@ -295,9 +294,10 @@ footer > p > a:hover {
 /* gradient  */
 
 :root {  
-    --purple: rgb(123, 31, 162);
-    --violet: rgb(103, 58, 183);
-    --pink: rgb(244, 143, 177);
+    --purple: rgb(240, 17, 61);
+    --violet: rgb(238, 92, 7);
+    --pink: rgb(15, 226, 237);
+    --red: rgb(229, 37, 197);
 }
   
 @keyframes background-pan {
@@ -314,25 +314,14 @@ h1 > .magic {
     display: inline-block;
     position: relative;
 }
-  
-h1 > .magic > .magic-star {
-    --size: clamp(20px, 1.5vw, 30px);
     
-    animation: scale 700ms ease forwards;
-    display: block;
-    height: var(--size);
-    left: var(--star-left);
-    position: absolute;
-    top: var(--star-top);
-    width: var(--size);
-}
-  
 h1 > .magic {
-    animation: background-pan 3s linear infinite;
+    animation: background-pan 4s linear infinite;
     background: linear-gradient(
       to right,
       var(--purple),
       var(--violet),
+      var(--red),
       var(--pink),
       var(--purple)
     );
